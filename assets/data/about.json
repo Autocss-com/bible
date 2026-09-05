@@ -1,0 +1,12 @@
+{
+  "section": [
+    {
+      "h1": "About Verse by Verse",
+      "p": [
+        "A small, free study site: Scripture in the public-domain King James text, with brief notes meant to open a passage rather than close it.",
+        "It runs on AutoCSS — one accessible front-end, identical to every other site built this way, with only the words changing. No app to install, no account, no tracking, and it works for everyone, including readers using screen readers.",
+        "The notes here are offered in good faith and make no claim to be the final word. Read, and see for yourself."
+      ]
+    }
+  ]
+}

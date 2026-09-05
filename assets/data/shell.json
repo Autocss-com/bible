@@ -1,0 +1,6 @@
+{
+  "app-banner": ["Verse by Verse", "Verse by Verse"],
+  "header": { "app-logo": "Verse by Verse", "app-user": "Sign-in" },
+  "nav": { "label": ["HOME", "JOHN", "PSALMS", "ABOUT"] },
+  "footer": { "app-legal": "© Verse by Verse", "app-version": "v.0.001" }
+}
