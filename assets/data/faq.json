@@ -1,0 +1,33 @@
+{
+  "section": [
+    {
+      "h1": "FAQ",
+      "p": [
+        "Two short lists below: questions about this site, and the technical notes the pool-violation notice links to. Placeholder text for now — real answers will follow."
+      ]
+    },
+    {
+      "h2": "Questions",
+      "details": [
+        {
+          "summary": "About this site",
+          "p": [
+            "Is it free? Yes — every study is free to read and free to share.",
+            "Do I need an account? No. No account, no tracking, nothing to install.",
+            "Which translation is used? The public-domain King James Version.",
+            "Can I suggest a correction? Yes — corrections and questions are welcome."
+          ]
+        },
+        {
+          "summary": "Technical — the component pool & notices",
+          "p": [
+            "Why did a notice appear? The data asked for an element that is not in the shared component pool, so it was not rendered — the notice surfaces that instead of dropping it silently.",
+            "What is the component pool? A curated allow-list of element prototypes (the shared pool.html) that the front-end will clone. If a tag is neither already on the page nor in the pool, nothing is created — a deliberate guard, not a bug.",
+            "How do I add an element to the pool? Add its prototype to the shared pool.html, then reference it from your JSON by its tag name; the injector clones one per array item (arrays materialize elements; strings set text).",
+            "Where do error details go? Here, in this technical list — the pool-violation notice links to this section."
+          ]
+        }
+      ]
+    }
+  ]
+}
