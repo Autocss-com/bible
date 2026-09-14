@@ -1,4 +1,4 @@
-# bible — one verse at a time
+# bible — Verse by verse 
 
 A Bible-study content site. It carries **only its own content**; the entire
 front-end (HTML shell, CSS, JS, fonts, and the component pool) is served from the
